@@ -1,7 +1,7 @@
 .Nav-List{
   list-style: none;
   margin: 0;
-  background-color: bisque;
+  background-color: rgba(90, 45, 45, 0.983);
   align-content: center;
   min-width: 100vw;
   min-height: 6vh;
@@ -11,4 +11,24 @@
   float: left;
   clear: right;
   margin:10px; 
+  border:1px solid rgba(0, 0, 0, 0.498);
+  padding:0 4px 0 4px;
+  background-color: rgb(163, 214, 154);
+  color: rgb(76, 73, 69);
+  border-radius: 2px;
+}
+.Nav-Link:hover{
+  color:pink;
+  background-color: rgb(98, 126, 93);
+  text-decoration: underline;
+}
+button{
+  margin-top:9px;
+  background-color: transparent;
+  color:pink;
+  border:2px dotted rgb(163, 214, 154);
+}
+button:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }

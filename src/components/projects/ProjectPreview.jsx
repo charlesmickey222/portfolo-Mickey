@@ -6,10 +6,11 @@ const ProjectPreview = (props) => {
 
   return ( 
     <div className='Project-Container'>
-      <Link to={`${project.name.replaceAll(' ','_')}`} state={{project}} className='projectLink'>{project.name}</Link>
+      <Link to={`${project.name.replaceAll(' ','_')}`} state={{project}} className='projectLink'>{project.name}
       <div className="frame">
         <img src={`${project.picSource}`}  alt={`screenshot of: ${project.name}`}/>
       </div>
+      </Link>
     </div>
   );
 }

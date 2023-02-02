@@ -1,5 +1,5 @@
 img{
-  height: 80vh;
+  height: 60vh;
 }
 .frame{
   max-width: 60vw;
@@ -10,17 +10,19 @@ img{
 .Project-Container{
   font-size: 20px;
   text-align: center;
-  margin:0 auto;
+  margin:10px auto;
   padding: 10px;
+  border: 2px solid black;
+  border-radius: 10%;
+  color:black;
+  background-color: rgba(90, 45, 45, 0.4);
+  max-width: 60vw;
 }
 .projectLink{
   text-decoration: none;
   margin:0 auto;
   padding:5px;
-  border: 2px solid black;
-  border-radius: 10%;
-  color:black;
-  background-color: rgba(124, 114, 101, 0.3);
+
 }
 .projectLink:hover{
   color:  white;
