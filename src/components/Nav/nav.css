@@ -1,0 +1,14 @@
+.Nav-List{
+  list-style: none;
+  margin: 0;
+  background-color: bisque;
+  align-content: center;
+  min-width: 100vw;
+  min-height: 6vh;
+}
+.Nav-Link{
+  text-decoration: none;
+  float: left;
+  clear: right;
+  margin:10px; 
+}
