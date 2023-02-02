@@ -10,7 +10,7 @@ export const projectsList = [
   {
     name:"Dogears 1.0",
     picSource:"https://imgur.com/1esDdTA.png",
-    description:"",
+    description:"Dogears Is a web application designed for users to be able to track the books that they are reading or have completed. Users can add their books to the bank, save them to their profile, then add a dogear to them to mark their spot in the book and add any notes about where they left off.",
     repoLink:"https://github.com/charlesmickey222/dogears",
     deploymentLink:"https://dogears.fly.dev/",
     stack:['JavaScript','HTML','CSS','MongoDB', 'Express','NodeJS'],
@@ -18,7 +18,7 @@ export const projectsList = [
   {
     name:"Dogears 2.0",
     picSource:"",
-    description:"",
+    description:"dogears with increased functionality through implementation of React, JWT authorization, and the Open Library API",
     repoLink:"",
     deploymentLink:"",
     stack:['JavaScript','HTML','CSS','MongoDB', 'React', 'Express','NodeJS'],

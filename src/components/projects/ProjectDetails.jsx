@@ -12,6 +12,12 @@ const ProjectDetails = (props) => {
     <article className="description">{project.description}</article>
     <Link to={`${project.repoLink}`} className='Link'> [Github Repo]  </Link>
     <Link to={`${project.deploymentLink}`} className='Link'> [Deployed App] </Link>
+    <h3>Tech Used</h3>
+    <ul>
+      {project.stack.map(tool=>
+        <li>{tool}</li>
+      )}
+    </ul>
     </main>
   );
 }
