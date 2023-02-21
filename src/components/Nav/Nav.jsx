@@ -18,7 +18,7 @@ const Nav = () => {
       <li><NavLink to='/' className='Nav-Link'> Home </NavLink></li>
       <li><NavLink to='/projects' className='Nav-Link'> Projects</NavLink></li>
       <li><NavLink to='/about-me' className='Nav-Link'> About Me </NavLink></li>
-      <button onClick={ onButtonClick } >download my resume</button>
+      <button onClick={ onButtonClick }>download my resume</button>
     </ol>
 
   </nav> 
